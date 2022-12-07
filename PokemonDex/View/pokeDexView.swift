@@ -20,7 +20,7 @@ struct pokeDexView: View {
                     }
                 }
             }
-            .navigationTitle("포켓몬 도감")
+            .navigationTitle("Pokedex")
         }
     }
 }

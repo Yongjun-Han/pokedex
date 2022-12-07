@@ -23,7 +23,7 @@ class PokemonViewModel: ObservableObject{
 //                return
 //            }
             guard let data = data?.parseData(removeString: "null,") else {return}
-//            print(data.count)
+            print(data)
             guard let pokemon = try? JSONDecoder().decode([Pokemon].self, from: data) else { return }
 //            print(pokemon)
             DispatchQueue.main.async {
